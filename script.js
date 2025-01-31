@@ -293,7 +293,6 @@ function getRandomWord(){
     const {word,hint} = wordList[Math.floor(Math.random()*wordList.length)];
     hintText.innerHTML = hint;
     currentWord = word;
-    console.log(currentWord);
     resetGame();
     // Inserting li element upto the word length
     for(let i = 0 ;i<word.length;i++){
